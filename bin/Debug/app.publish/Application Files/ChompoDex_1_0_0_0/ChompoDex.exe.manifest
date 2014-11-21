@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChompoDex.exe" version="1.0.0.0" publicKeyToken="7dec483289b72d63" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChompoDex" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChompoDex.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChompoDex.exe" size="27648">
+      <assemblyIdentity name="ChompoDex" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Voo54fri5ijqS0mM0UQaCINWweWo9QKVNvrTH9ATE44=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChompoDex.exe.config" size="517">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oIW5bbW4viUpyLkYd1/IMABC6YKhk98MNkpea3XnWEU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DoctorMondo-PC\DoctorMondo" issuerKeyHash="1651e6435f8a060da70abf8003fa8eb773bcaf09" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eRUW2+CBU0mf3og0SPOZ3ftyX1Cilvcv1Br50rpF2PU=</DigestValue></Reference></SignedInfo><SignatureValue>MkGt3U0YGQZlZJ0YSpo1ZwtlZlztTJzCA70XFIlAghwb2zydVgIwihI/1FmZt/yWb3XCA1Cj9nCU0yX+mOX8mfraNjZjsEHrM/mINgDk/BCTGzWUPczpV7CQinWWsm6aofEhFd/DIi6U2wnDuBQKXU7VI+rauG3gIZ4BgqybKDQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3ZUfUHLtbvsolqvf2pthvBY8TPcYtj42FRjDUmE3kt5AM2X+XHzZ+GyWAouR0dUzGgNvGm1e2PbGTWlzSgGBCD9olFR9Sgaw/ATYdd4+o6WlIEBAb7rdh5DEfW4CUfdVNA6huReNPaU3xmcCbqynKtVSRcsprWfus6J3GEvZND8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5d845bad2f91ad42ff796a2505f72fbdd99f3483488de9f495381e0db161579" Description="" Url=""><as:assemblyIdentity name="ChompoDex.exe" version="1.0.0.0" publicKeyToken="7dec483289b72d63" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DoctorMondo-PC\DoctorMondo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KyGUG3avHF507FmfQmrMlfWHjrsvIIhn7JI3xyd9Id4=</DigestValue></Reference></SignedInfo><SignatureValue>lMNz3dc8S13ca1kv1/P88u2UU6+Y7hTm1r0XK23ykmGeLXnAM11dKZnwhaiVStTvBjYcS58wAC3wexs7JOQmv/TBAeyH9WqH2Zztqh3knYc9D4LFAA/OHn7Hu9nixAwxJna1ep5ZbuJYZ50w52o1iytazbXeJRyZWadYTEcjiBc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3ZUfUHLtbvsolqvf2pthvBY8TPcYtj42FRjDUmE3kt5AM2X+XHzZ+GyWAouR0dUzGgNvGm1e2PbGTWlzSgGBCD9olFR9Sgaw/ATYdd4+o6WlIEBAb7rdh5DEfW4CUfdVNA6huReNPaU3xmcCbqynKtVSRcsprWfus6J3GEvZND8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQT1XduOknwLJFIJVH5Ja0pTANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQARABvAGMAdABvAHIATQBvAG4AZABvAC0AUABDAFwARABvAGMAdABvAHIATQBvAG4AZABvMB4XDTE0MTEyMTA2MDkwNFoXDTE1MTEyMTEyMDkwNFowPzE9MDsGA1UEAx40AEQAbwBjAHQAbwByAE0AbwBuAGQAbwAtAFAAQwBcAEQAbwBjAHQAbwByAE0AbwBuAGQAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3ZUfUHLtbvsolqvf2pthvBY8TPcYtj42FRjDUmE3kt5AM2X+XHzZ+GyWAouR0dUzGgNvGm1e2PbGTWlzSgGBCD9olFR9Sgaw/ATYdd4+o6WlIEBAb7rdh5DEfW4CUfdVNA6huReNPaU3xmcCbqynKtVSRcsprWfus6J3GEvZND8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQA1B04+hqYUWX2LXzyel+2E9Zj3T9E2AT/pmXVGm53kzRmbfZBD0GrqNzxmEQIV6iu/7qtPZsqhmYdEnHv9A9mhMxc8XYmRJV0d3BbevtYfPHntEQZ6uCHYyFjNdKje+mcGK3KkYn43Xn2Mu29tG7RMAkYs6HnYCWtzNoZ9FUQjog==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\bin\Debug\ChompoDex.exe.config
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\bin\Debug\ChompoDex.exe
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\bin\Debug\ChompoDex.pdb
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.RecipeForm.resources
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.Properties.Resources.resources
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.csproj.GenerateResource.Cache
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.exe
+c:\users\doctormondo\documents\visual studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.pdb
+C:\Users\DoctorMondo\Documents\Visual Studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.RecipeBookForm.resources
+C:\Users\DoctorMondo\Documents\Visual Studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.csprojResolveAssemblyReference.cache
+C:\Users\DoctorMondo\Documents\Visual Studio 2013\Projects\ChompoDex\ChompoDex\bin\Debug\ChompoDex.exe.manifest
+C:\Users\DoctorMondo\Documents\Visual Studio 2013\Projects\ChompoDex\ChompoDex\bin\Debug\ChompoDex.application
+C:\Users\DoctorMondo\Documents\Visual Studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.exe.manifest
+C:\Users\DoctorMondo\Documents\Visual Studio 2013\Projects\ChompoDex\ChompoDex\obj\Debug\ChompoDex.application
