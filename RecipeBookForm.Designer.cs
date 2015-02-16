@@ -90,7 +90,7 @@
             this.recipeBookEditButton.Name = "recipeBookEditButton";
             this.recipeBookEditButton.Size = new System.Drawing.Size(75, 23);
             this.recipeBookEditButton.TabIndex = 3;
-            this.recipeBookEditButton.Text = "Edit";
+            this.recipeBookEditButton.Text = "Open";
             this.recipeBookEditButton.UseVisualStyleBackColor = true;
             this.recipeBookEditButton.Click += new System.EventHandler(this.RecipeBookEditButton_Click);
             // 
